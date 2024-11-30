@@ -1,5 +1,7 @@
 {
-  "main": "index.js",
+  "name": "geo-hunter",
+  "version": "1.2.1",
+  "description": "A library for calculating interception points of aerial targets based on coordinates (EPSG:4326).",
   "keywords": [
     "geo",
     "distance",
@@ -7,14 +9,23 @@
     "circle",
     "nodejs"
   ],
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
   "author": "Solution Technologies And Ready Systems (STAR Systems)",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/geo-hunter"
+    "url": "git+https://github.com/STAR-Systems-Company/geo-hunter.git"
   },
   "bugs": {
-    "url": "https://github.com/yourusername/geo-hunter/issues"
+    "url": "https://github.com/STAR-Systems-Company/geo-hunter.git/issues"
   },
-  "homepage": "https://github.com/yourusername/geo-hunter#readme"
+  "homepage": "https://github.com/STAR-Systems-Company/geo-hunter#readme",
+  "devDependencies": {
+    "typescript": "^5.7.2"
+  }
 }

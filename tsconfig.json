@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ES5",                      // Компилируем в ES5 для совместимости
+    "module": "CommonJS",                 // CommonJS для Node.js
+    "declaration": true,                  // Создавать файлы .d.ts для типов
+    "outDir": "dist",                     // Скомпилированные файлы в папку dist
+    "strict": true,                       // Включить строгую типизацию
+    "esModuleInterop": true,              // Поддержка импорта CommonJS модулей
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src/**/*.ts"],             // Компилировать только файлы из src
+  "exclude": ["node_modules", "dist"]     // Исключить ненужные папки
+}
