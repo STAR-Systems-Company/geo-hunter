@@ -1,0 +1,20 @@
+{
+  "main": "index.js",
+  "keywords": [
+    "geo",
+    "distance",
+    "geography",
+    "circle",
+    "nodejs"
+  ],
+  "author": "Solution Technologies And Ready Systems (STAR Systems)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/geo-hunter"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/geo-hunter/issues"
+  },
+  "homepage": "https://github.com/yourusername/geo-hunter#readme"
+}
